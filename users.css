@@ -1,0 +1,20 @@
+
+
+table{
+	margin: 0 auto;
+	letter-spacing: 1.2px;
+	padding: 10px;
+	border-spacing: 20px;
+	border: 10px;
+	
+}
+
+td{
+	text-align: center;
+
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}

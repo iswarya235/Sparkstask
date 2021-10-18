@@ -1,0 +1,105 @@
+
+.header{
+    background: linear-gradient(to right,black,#4682B4);
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header_logo{
+    margin-left:25px ;
+    margin-top: 10px;
+    height: 70px;
+    width: 15%;
+    color: white;
+    font-family: segoe ui;
+    font-size: 35px;
+}
+.nav_bar{
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.nav_items{
+    height: 70px;
+    width: 23%;
+    font-size: 20px;
+    font-family: segoe ui;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+
+
+}
+.nav_items:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.body{
+    height:85vh;
+    width:100%;
+    background-image: url('bank.jpg');
+    background-size: cover;
+    justify-content: center;
+    color: white;
+}
+.new{
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.user{
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0,0, 0.8);
+    display: flex;
+    justify-content: center;
+}
+.transact{
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0,0, 0.8);
+    display: flex;
+    justify-content: center;
+}
+.history{
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0,0, 0.8);
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0,0, 0.8);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+.text{
+    height: 300px;
+    width:50%;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.footer{
+    background: linear-gradient(to right, black,#4682B4);
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-family: segoe ui;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+ 
+}
